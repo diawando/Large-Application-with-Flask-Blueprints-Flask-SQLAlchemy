@@ -5,4 +5,4 @@ class Config:
     SQLALCHEMY_DATABASE_URI = "postgresql://postgres:lavie@localhost:5432/social_media"
     SQLALCHEMY_TRACK_MODIFICATIONS = False
     
-    
+
