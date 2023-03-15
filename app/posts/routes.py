@@ -4,7 +4,7 @@ from app.posts import bp
 
 @bp.route('/')
 def index():
-    return render_template('post/index.html')
+    return render_template('posts/index.html')
 
 @bp.route('/categories/')
 def categories():
